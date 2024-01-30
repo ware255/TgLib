@@ -228,6 +228,8 @@ int main() {
             if (io == 0) {
                 flag = 0;
                 io = 1;
+                //sendMessage("Bot Started!", TOKEN, ChatId);
+                printf("Bot Started!");
                 continue;
             }
             if (flag) {
